@@ -1,6 +1,6 @@
 # React 后台管理页面
 
-> <a href="">预览地址</a>
+> <a href="https://lxx0904.github.io/react-admin/build/">预览地址</a>
 
 ## 技术栈
 
