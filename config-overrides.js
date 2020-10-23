@@ -5,9 +5,5 @@ module.exports = override(
         libraryName: 'antd',        
         libraryDirectory: 'es',       
         style: 'css'
-    }),
-    (config) => {
-        config.output.publicPath = "./";
-        return config
-    }
+    })
 )
