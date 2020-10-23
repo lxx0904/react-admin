@@ -1,0 +1,24 @@
+.login {
+    height: 100%;
+    background: url(../assets/images/bg.jpg) no-repeat;
+    background-size: cover;
+    .wrap {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(245,245,221,.8);
+        .model {
+            width: 350px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 13px 0 hsla(0,0%,89.4%,.6);
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
