@@ -11,10 +11,17 @@ import {
 import BarChart from './Bar'
 import LineChart from './Line'
 import PieChart from './Pie'
+import screenfull from 'screenfull'
 
 export class Index extends Component {
-    fullToggle() {
-
+    constructor(props) {
+        super(props)
+        this.myRef = React.createRef();
+    }
+    fullToggle = () => {
+        if (screenfull.isEnabled) {
+            screenfull.request(this.myRef.current);
+		}
     }
     render() {
         return (
@@ -65,7 +72,9 @@ export class Index extends Component {
                                 <FullscreenOutlined style={{ cursor: 'pointer' }} onClick={this.fullToggle} />
                             </div>
                             <Divider />
-                            <BarChart />
+                            <div ref={this.myRef} style={{backgroundColor: '#fff', height: '300px'}}>
+                                <BarChart />
+                            </div>
                         </BaseStyle>
                     </Col>
                 </Row>

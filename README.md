@@ -16,6 +16,8 @@
 
 > <code>nprogress@0.2.0</code> 顶部加载条
 
+> <code>screenfull@5.0.2</code> 全屏插件
+
 > <code>styled-components@5.2.0</code> 局部样式
 
 ## 基本功能

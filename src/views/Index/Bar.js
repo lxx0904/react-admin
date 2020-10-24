@@ -28,7 +28,7 @@ function Bar() {
         { name: 'Berlin', 月份: 'Aug.', 月均降雨量: 42.4 },
       ];
     return (
-        <Chart height={300} padding="auto" autoFit data={data} >
+        <Chart height="100%" padding="auto" autoFit data={data} >
             <Interval 
                 adjust={[
                     {

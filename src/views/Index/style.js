@@ -43,5 +43,9 @@ export const BaseStyle = styled.div`
     .bar-header {
         display: flex;
         justify-content: space-between;
+        .anticon {
+            color: #000;
+            font-size: 20px;
+        }
     }
 `

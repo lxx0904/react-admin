@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-admin"]=this["webpackJsonpreact-admin"]||[]).push([[6],{370:function(n,t,e){"use strict";e.r(t),e.d(t,"Dropdown",(function(){return p}));var r=e(10),a=e(11),c=e(13),u=e(12),i=e(0),o=e.n(i),p=function(n){Object(c.a)(e,n);var t=Object(u.a)(e);function e(){return Object(r.a)(this,e),t.apply(this,arguments)}return Object(a.a)(e,[{key:"render",value:function(){return o.a.createElement("div",null,"Dropdown")}}]),e}(i.Component);t.default=p}}]);
-//# sourceMappingURL=dropdown.3d83f8ed.chunk.js.map
